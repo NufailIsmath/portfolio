@@ -17,7 +17,7 @@ export const profile = {
   links: {
     github: "https://github.com/NufailIsmath",
     linkedin: "https://www.linkedin.com/in/nufail-i-61377b10b/",
-    medium: "https://medium.com/",
+    medium: "https://medium.com/@nufailismath15",
   },
   headline:
     "I design and ship blockchain systems — and the backends, databases and apps that make them production-ready.",
@@ -81,16 +81,35 @@ export const projects: Project[] = [
     ],
     tags: ["Blockchain", "Backend", "AI", "Frontend"],
     architecture: [
-      { layer: "Client", items: ["Workspace UI (Next.js)", "WebGL graph canvas"] },
-      { layer: "Edge", items: ["Gateway / BFF", "Realtime (Socket.IO)", "IAM"] },
-      { layer: "Services", items: ["Pathfinder", "Watchtower", "Scribe (AI)", "Case mgmt", "Chain data"] },
-      { layer: "Data", items: ["Postgres + AGE graph", "NATS JetStream", "MinIO evidence"] },
+      {
+        layer: "Client",
+        items: ["Workspace UI (Next.js)", "WebGL graph canvas"],
+      },
+      {
+        layer: "Edge",
+        items: ["Gateway / BFF", "Realtime (Socket.IO)", "IAM"],
+      },
+      {
+        layer: "Services",
+        items: [
+          "Pathfinder",
+          "Watchtower",
+          "Scribe (AI)",
+          "Case mgmt",
+          "Chain data",
+        ],
+      },
+      {
+        layer: "Data",
+        items: ["Postgres + AGE graph", "NATS JetStream", "MinIO evidence"],
+      },
     ],
   },
   {
     slug: "clean-id",
     name: "Clean ID",
-    tagline: "Web3 digital identity & asset platform for government and enterprise",
+    tagline:
+      "Web3 digital identity & asset platform for government and enterprise",
     period: "2023 — present",
     role: "Blockchain & backend owner · mobile app",
     featured: true,
@@ -128,13 +147,22 @@ export const projects: Project[] = [
       "Took key responsibility for the smart-contract architecture, backend and delivery.",
       "Built the contract layer (v1 on Hardhat, v2 redesign) and the API that connects registry workflows to the chain.",
     ],
-    stack: ["Solidity", "Hardhat", "Express", "Prisma", "MongoDB", "ethers / viem", "Next.js"],
+    stack: [
+      "Solidity",
+      "Hardhat",
+      "Express",
+      "Prisma",
+      "MongoDB",
+      "ethers / viem",
+      "Next.js",
+    ],
     tags: ["Blockchain", "Backend"],
   },
   {
     slug: "aasl-iom",
     name: "AASL & IOM",
-    tagline: "Permit & operations platforms — backend and database architecture",
+    tagline:
+      "Permit & operations platforms — backend and database architecture",
     period: "2024 — present",
     role: "Backend lead & database architect",
     context:
@@ -144,7 +172,13 @@ export const projects: Project[] = [
       "Migrated the team's backend approach from Express to NestJS for stronger modularity and maintainability.",
       "Ran DevOps for the projects: server configuration, deployment and maintenance.",
     ],
-    stack: ["NestJS", "TypeScript", "PostgreSQL", "Database design", "Linux servers"],
+    stack: [
+      "NestJS",
+      "TypeScript",
+      "PostgreSQL",
+      "Database design",
+      "Linux servers",
+    ],
     tags: ["Backend", "DevOps"],
   },
   {
@@ -183,7 +217,8 @@ export const projects: Project[] = [
     tagline: "Crypto payment tracking service",
     period: "Niftron · 2021 — 2023",
     role: "Backend developer",
-    context: "A service that confirms crypto payments automatically instead of by hand.",
+    context:
+      "A service that confirms crypto payments automatically instead of by hand.",
     highlights: [
       "Listened to wallet addresses for incoming payments via Moralis, verified price and currency on-chain and updated order state in MongoDB.",
     ],
@@ -208,7 +243,8 @@ export const projects: Project[] = [
 export const skills: { domain: string; blurb: string; items: string[] }[] = [
   {
     domain: "Blockchain & Web3",
-    blurb: "Contracts, integrations and infrastructure across EVM and non-EVM chains.",
+    blurb:
+      "Contracts, integrations and infrastructure across EVM and non-EVM chains.",
     items: [
       "Solidity",
       "Smart contract design",
@@ -267,7 +303,13 @@ export const skills: { domain: string; blurb: string; items: string[] }[] = [
   {
     domain: "DevOps & Cloud",
     blurb: "Getting it running and keeping it running.",
-    items: ["GCP", "GKE / Kubernetes", "Docker", "Server config & maintenance", "CI (GitHub Actions)"],
+    items: [
+      "GCP",
+      "GKE / Kubernetes",
+      "Docker",
+      "Server config & maintenance",
+      "CI (GitHub Actions)",
+    ],
   },
   {
     domain: "Tooling",
@@ -333,9 +375,21 @@ export const experience = [
 ];
 
 export const education = [
-  { title: "BEng (Hons) Software Engineering", place: "University of Westminster", period: "2018 — 2021" },
-  { title: "Foundation in Higher Studies", place: "Informatics Institute of Technology", period: "2017 — 2018" },
-  { title: "GCE Ordinary Level — Cambridge", place: "Minhal International Boys School", period: "2003 — 2016" },
+  {
+    title: "BEng (Hons) Software Engineering",
+    place: "University of Westminster",
+    period: "2018 — 2021",
+  },
+  {
+    title: "Foundation in Higher Studies",
+    place: "Informatics Institute of Technology",
+    period: "2017 — 2018",
+  },
+  {
+    title: "GCE Ordinary Level — Cambridge",
+    place: "Minhal International Boys School",
+    period: "2003 — 2016",
+  },
 ];
 
 export const achievements = [
